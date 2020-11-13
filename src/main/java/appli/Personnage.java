@@ -2,9 +2,17 @@ package appli;
 
 import behaviors.ComportementArme;
 
-public class Personnage {
+abstract public class Personnage {
 	
 	ComportementArme arme;
+	
+	public Personnage() {
+
+	}
+	
+	public Personnage(ComportementArme a) {
+		this.setArme(a);
+	}
 	
 	public void combattre() {
 		this.arme.utiliserArme();

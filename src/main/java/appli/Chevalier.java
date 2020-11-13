@@ -1,4 +1,6 @@
 package appli;
-public class Chevalier extends Personnage{
 
+public class Chevalier extends Personnage{
+	
+	
 }
