@@ -6,10 +6,6 @@ abstract public class Personnage {
 	
 	ComportementArme arme;
 	
-	public Personnage() {
-
-	}
-	
 	public Personnage(ComportementArme a) {
 		this.setArme(a);
 	}
@@ -18,7 +14,7 @@ abstract public class Personnage {
 		this.arme.utiliserArme();
 	}
 	
-	public void setArme(ComportementArme a) {
+	private void setArme(ComportementArme a) {
 		this.arme = a;
 	}
 
