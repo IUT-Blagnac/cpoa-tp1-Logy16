@@ -14,7 +14,7 @@ abstract public class Personnage {
 		this.arme.utiliserArme();
 	}
 	
-	private void setArme(ComportementArme a) {
+	public void setArme(ComportementArme a) {
 		this.arme = a;
 	}
 

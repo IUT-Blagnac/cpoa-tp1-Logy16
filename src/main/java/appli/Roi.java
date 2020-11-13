@@ -8,4 +8,8 @@ public class Roi extends Personnage{
 		super(a);
 	}
 	
+	public void combattre() {
+		System.out.print("Je suis un roi et ");
+		super.combattre();
+	}
 }

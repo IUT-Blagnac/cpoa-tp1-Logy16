@@ -7,7 +7,7 @@ public class ComportementPoignard implements ComportementArme{
 	@Override
 	public void utiliserArme() {
 		// TODO Auto-generated method stub
-		System.out.println("J'utilise un poignard");
+		System.out.println("j'utilise un poignard");
 	}
 
 }

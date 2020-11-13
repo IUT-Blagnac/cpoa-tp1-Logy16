@@ -8,5 +8,9 @@ public class Troll extends Personnage{
 		super(a);
 	}
 
+	public void combattre() {
+		System.out.print("Je suis un troll et ");
+		super.combattre();
+	}
 
 }

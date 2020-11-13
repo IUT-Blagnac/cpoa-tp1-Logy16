@@ -7,7 +7,7 @@ public class ComportementArc implements ComportementArme{
 	@Override
 	public void utiliserArme() {
 		// TODO Auto-generated method stub
-		System.out.println("J'utilise un arc");
+		System.out.println("j'utilise un arc");
 	}
 
 }

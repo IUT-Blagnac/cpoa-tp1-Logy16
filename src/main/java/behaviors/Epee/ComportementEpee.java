@@ -7,7 +7,7 @@ public class ComportementEpee implements ComportementArme{
 	@Override
 	public void utiliserArme() {
 		// TODO Auto-generated method stub
-		System.out.println("J'utilise une épée");
+		System.out.println("j'utilise une épée");
 	}
 
 }

@@ -9,4 +9,8 @@ public class Reine extends Personnage{
 
 	}
 	
+	public void combattre() {
+		System.out.print("Je suis une reine et ");
+		super.combattre();
+	}
 }

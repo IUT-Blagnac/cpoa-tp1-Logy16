@@ -8,5 +8,10 @@ public class Chevalier extends Personnage{
 		super(a);
 	}
 	
+	public void combattre() {
+		System.out.print("Je suis un chevalier et ");
+		super.combattre();
+	}
+	
 	
 }
