@@ -12,6 +12,8 @@ public class main {
 		ComportementArme RhoAias = new ComportementPoignard();
 		ComportementArme ArcOfLight = new ComportementArc();
 		Personnage p1 = new Chevalier(MasterSword);
+		Personnage p2 = new Roi(RhoAias);
+		p2.combattre();
 		p1.combattre();
 		p1.setArme(ArcOfLight);
 		p1.combattre();
