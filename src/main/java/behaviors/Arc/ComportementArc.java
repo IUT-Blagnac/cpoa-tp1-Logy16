@@ -1,5 +1,13 @@
 package behaviors.Arc;
 
-public class ComportementArc {
+import behaviors.ComportementArme;
+
+public class ComportementArc implements ComportementArme{
+
+	@Override
+	public void utiliserArme() {
+		// TODO Auto-generated method stub
+		System.out.println("J'utilise un arc");
+	}
 
 }
